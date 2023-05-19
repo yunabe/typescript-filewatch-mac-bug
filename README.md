@@ -1,0 +1,1 @@
+# typescript-filewatch-mac-bug
