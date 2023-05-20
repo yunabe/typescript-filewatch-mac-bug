@@ -31,7 +31,9 @@ describe("typescript", () => {
           console.log("found the change of mysrc.ts");
           notifyChange();
         }
-      }
+      },
+      250,
+      { watchFile: ts.WatchFileKind.FixedPollingInterval }
     );
     fs.writeFileSync(filename, "export function g() {}");
     await updated;

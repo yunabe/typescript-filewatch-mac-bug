@@ -7,8 +7,5 @@
     "lib": ["es2017"],
     "newLine": "LF",
     "declaration": true
-  },
-  "watchOptions": {
-    "watchFile": "fixedpollinginterval"
   }
 }
